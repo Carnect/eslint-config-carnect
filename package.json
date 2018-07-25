@@ -1,5 +1,5 @@
 {
-  "name": "lint-rules",
+  "name": "eslint-config-node-lint-rules",
   "version": "1.0.0",
   "description": "",
   "main": "eslintrc.json",
