@@ -10,15 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Carnect/eslint-config-carnect.git"
   },
-  "author": "",
+  "author": "carnect",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Carnect/node-lint-rules/issues"
+    "url": "https://github.com/Carnect/eslint-config-carnect/issues"
   },
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "homepage": "https://github.com/Carnect/node-lint-rules#readme",
+  "homepage": "https://github.com/Carnect/eslint-config-carnect#readme",
   "dependencies": {
     "eslint-config-airbnb": "15.0.1",
     "eslint-plugin-import": "2.3.0",
