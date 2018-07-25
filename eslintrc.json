@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "max-len": ["error", 150],
+    "func-names": ["error", "never"],
+    "indent": ["error", 4],
+    "no-underscore-dangle": ["error", { "allow": ["__", "__n", "_doc"], "allowAfterThis": true }],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+    }],
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "class-methods-use-this": [0]
+  },
+  "env": {
+    "mocha": true
+  }
+}
