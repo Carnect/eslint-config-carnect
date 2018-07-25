@@ -1,19 +1,25 @@
 {
-  "name": "eslint-config-node-lint-rules",
+  "name": "eslint-config-carnect",
   "version": "1.0.0",
   "description": "",
-  "main": "eslintrc.json",
+  "main": "rules.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Carnect/node-lint-rules.git"
+    "url": "git+https://github.com/Carnect/eslint-config-carnect.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Carnect/node-lint-rules/issues"
   },
-  "homepage": "https://github.com/Carnect/node-lint-rules#readme"
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "homepage": "https://github.com/Carnect/node-lint-rules#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^15.1.0"
+  }
 }
